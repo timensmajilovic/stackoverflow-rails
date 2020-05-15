@@ -1,0 +1,154 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require commontator/application
+ */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ body {
+    background-color: #fff;
+    color: #333;
+    margin: 33px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  
+  p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  
+  pre {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;
+  }
+  
+  a {
+    color: #000;
+  
+    &:visited {
+      color: #666;
+    }
+  }
+  
+  th {
+    padding-bottom: 5px;
+  }
+  
+  td {
+    padding: 0 5px 7px;
+  }
+  
+  div {
+    &.field, &.actions {
+      margin-bottom: 10px;
+    }
+  }
+  
+  #notice {
+    color: green;
+  }
+  
+  .field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table;
+  }
+  
+  #error_explanation {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px 7px 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+  
+    h2 {
+      text-align: left;
+      font-weight: bold;
+      padding: 5px 5px 5px 15px;
+      font-size: 12px;
+      margin: -7px -7px 0;
+      background-color: #c00;
+      color: #fff;
+    }
+  
+    ul li {
+      font-size: 12px;
+      list-style: square;
+    }
+  }
+  
+  label {
+    display: block;
+  }
+
+  .preberivec{
+      color: green;
+  }
+
+  .objava,.post,.login,.signup{
+      margin-top: 30px;
+      border: 2px black solid;
+      border-radius: 10px;
+      padding: 10px;
+      padding-top: 0px;
+      background-color:lightgray;
+      box-shadow: 5px 10px #888888;
+  }
+  .post{
+    width: 50%;
+    margin:auto;
+    margin-top: 6%;
+  }
+  .login,.signup{
+    width: 30%;
+    margin:auto;
+    margin-top: 6%;
+    background-color:lightgreen;
+    text-align:center;
+  }
+  .signup{
+    background-color: yellowgreen;
+  }
+
+
+  .header{
+    border-radius: 80px;
+    background-color: #FF9D23;
+    border: 2px solid black;
+    box-shadow: 5px 10px;
+    color: black
+  }
+
+  .logoutmenu{
+    float:right;
+  }
+  .logingumb{
+    background: rgb(28, 184, 65);
+    border: 1px black dotted;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .signupgumb{
+    background: rgb(28, 184, 65);
+    border: 1px black dotted;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  

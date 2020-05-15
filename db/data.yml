@@ -1,0 +1,74 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2020-05-13 15:15:25.658314'
+    - '2020-05-13 15:15:25.658314'
+
+---
+posts:
+  columns:
+  - id
+  - title
+  - body
+  - user_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Hello world
+    - i am me
+    - 1
+    - '2020-05-13 15:41:48.938128'
+    - '2020-05-13 15:41:48.938128'
+  - - 2
+    - test
+    - test
+    - 2
+    - '2020-05-13 15:48:31.352373'
+    - '2020-05-13 15:48:31.352373'
+  - - 3
+    - asda
+    - asdasd
+    - 1
+    - '2020-05-13 16:26:57.883659'
+    - '2020-05-13 16:26:57.883659'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - created_at
+  - updated_at
+  - admin
+  records: 
+  - - 1
+    - a@a.a
+    - "$2a$11$RLD9wXKdAAj6WJtJ/YFZLeunO3AwD5yr0m7opfePrPJxcQFWnRfCC"
+    - 
+    - 
+    - 
+    - '2020-05-13 15:23:24.320292'
+    - '2020-05-13 15:30:37.507074'
+    - true
+  - - 2
+    - b@b.b
+    - "$2a$11$1ucuZlY84GwpL8D0/uPulO2LwvMmVSZXp8ILShMv8eEpUfAuank9i"
+    - 
+    - 
+    - 
+    - '2020-05-13 15:45:56.376536'
+    - '2020-05-13 15:45:56.376536'
+    - false

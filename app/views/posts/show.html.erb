@@ -1,0 +1,28 @@
+
+<div class="post">
+<p>
+  <strong>Naslov:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Opis:</strong>
+  <%= @post.body %>
+</p>
+
+<p>
+  <strong>Objavil:</strong>
+  <%= @post.user.email.split('@')[0].capitalize %>
+</p>
+
+
+
+<%= show_edit_button(@post) %> |
+
+<%= link_to 'Back', posts_path %>
+
+<%= commontator_thread(@post) %>
+
+</div>
+
+
